@@ -1,0 +1,155 @@
+#hero-image{
+    height: 50vw;
+    background-image: url(../img/Hero.jpg);
+    background-size: 2000px;
+}
+.hero{
+    height: 10vw;
+    background-image: url(../img/Hero.jpg);
+    background-size: 1000px;
+}
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 98vw;
+    margin-bottom: 1px;
+    padding-bottom: 15px;
+}
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+h1 a:hover{
+    color: grey;
+}
+.logo{
+    height: 27px;
+}
+ul{
+    list-style-type: none;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    background-color: greenyellow;
+    opacity: .9;
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font: x-large monospace;
+}
+li a.home{
+    background-color: green;
+    color: white;
+}
+li a:hover:not(.home){
+    background-color: green;
+    color: white;
+}
+li a.about{
+    background-color: green;
+    color: white;
+}
+li a:hover:not(.about){
+    background-color: green;
+    color: white;
+}
+li a.contact{
+    background-color: green;
+    color: white;
+}
+li a:hover:not(.contact){
+    background-color: green;
+    color: white;
+}
+.middle{
+    height: 30vw;
+    background-color: white;
+    text-align: center;
+    font-size: xx-large;
+    padding: 50px;
+}
+.newspaper{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid grey;
+}
+video{
+    height: 500px;
+    width: 38vw;
+    margin: 1vw;
+    margin-top: 0;
+    background-color: black;
+    float: left;
+}
+section img{
+    height: 300px;
+    width: 38vw;
+    margin: 1vw;
+    margin-top: 0;
+    float: left;
+    margin-top: 100px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+aside{
+    height: 700px;
+    width: 30vw;
+    margin-right: 15vw;
+    margin-bottom: 1vw;
+    margin-top: 140px;
+    float: right;
+    background-color: greenyellow;
+    padding: 20px;
+    font-size: larger;
+    border-radius: 5px;
+}
+.container{
+    background-color:black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+input[type="text"], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: greenyellow;
+}
+input[type=submit] {
+    background-color: greenyellow;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: green;
+}
+.map{
+    margin-left: 15vw;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 20px;
+}
+.footer{
+    padding-left: 45%;
+    transition-duration: 4s;
+    clear: both
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://kit.fontawesome.com/16ab9ee51b.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: black;">
+    <!--star of page with div with hero image-->
+    <div class="hero">
+        <!--start of nav bar-->
+        <nav>
+            <ul>
+                <li><a href="index.html"><img class="logo" src="img/Mountlogo.png" alt="Mountlogo"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li style="float: right;"><a class="contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--start of contact form-->
+    <div class="container">
+        <form action="">
+            <label style="color: white;" for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+            <label style="color: white;" for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
+            <label style="color: white;" for="country">Country</label>
+            <select name="country" id="country">
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">Mexico</option>
+            </select>
+            <label style="color: white;" for="subject">Subject</label>
+            <textarea name="subject" id="subject" cols="30" rows="10" placeholder="write something"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!--google maps-->
+    <div>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204504.28567646892!2d-119.93464594857551!3d36.78545132148885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945de1549e4e9d%3A0x7b12406449a3b811!2sFresno%2C%20CA!5e0!3m2!1sen!2sus!4v1663368411038!5m2!1sen!2sus" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>   
+    <!--start of footer-->
+    <footer>
+        <ul class="footer">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
